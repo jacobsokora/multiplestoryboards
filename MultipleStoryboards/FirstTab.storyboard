@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wan-pa-mAb">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item 1-->
+        <scene sceneID="oMZ-bv-NXO">
+            <objects>
+                <viewController id="wan-pa-mAb" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Prf-ZG-1lH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Tab" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FrY-yF-Ryb">
+                                <rect key="frame" x="155" y="333" width="65.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="FrY-yF-Ryb" firstAttribute="centerY" secondItem="h8D-cn-RZZ" secondAttribute="centerY" id="QW6-Wu-QhW"/>
+                            <constraint firstItem="FrY-yF-Ryb" firstAttribute="centerX" secondItem="h8D-cn-RZZ" secondAttribute="centerX" id="bgF-qg-0jm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="h8D-cn-RZZ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="kML-3b-fxU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="blA-6m-hWr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-145" y="-641"/>
+        </scene>
+    </scenes>
+</document>
